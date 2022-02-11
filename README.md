@@ -4,7 +4,7 @@ This template will get you ready to deploy a library to PyPI.
 
 ## Getting started from the template
 1. Rename the `src/poetry_library_template` package.
-1. Globally replace (*case-sensitive*) instances of `poetry-library-template` and `poetry_library_template` with your project and package name.
+1. Globally replace instances of `poetry-library-template` and `poetry_library_template` with your project and package name.
 1. Set your repo up on [CodeCov](https://app.codecov.io/) and add a codecov token to your repo under the `CODECOV_TOKEN` action secret.
 1. Create a new repo-scoped personal access token and add it as the `RELEASE_TOKEN` action secret. This is so we can [trigger further workflows on release](https://github.community/t/action-does-not-trigger-another-on-push-tag-action/17148/8).
 1. Create a PyPI token with write access for this package, and add it as the `PYPI_PASSWORD` action secret.
