@@ -4,6 +4,27 @@ version = "0.1.0"
 description = ""
 authors = []
 
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/k2bd/poetry-library-template"
+repository = "https://github.com/k2bd/poetry-library-template"
+keywords = []
+classifiers = [
+    "Operating System :: OS Independent",
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+]
+include = [
+    "LICENSE",
+]
+
 [tool.poetry.dependencies]
 python = "^3.7"
 

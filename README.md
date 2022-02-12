@@ -9,6 +9,7 @@ This template will get you ready to deploy a library to PyPI.
 1. Create a new repo-scoped personal access token and add it as the `RELEASE_TOKEN` action secret. This is so we can [trigger further workflows on release](https://github.community/t/action-does-not-trigger-another-on-push-tag-action/17148/8).
 1. Create a PyPI token with write access for this package, and add it as the `PYPI_PASSWORD` action secret.
 1. Create and test your library.
+1. Update the distribution information such as classifiers and repo location in `pyproject.toml`.
 1. When you're ready to release the first version, run the release GitHub action with the "major", "minor", or "patch" option.
 1. Remove this section from `README.md`.
 1. Happy hacking!
