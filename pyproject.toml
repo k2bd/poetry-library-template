@@ -42,6 +42,8 @@ profile = "black"
 multi_line_output = 3
 
 [tool.poe.tasks]
+docs = "make clean html -C docs"
+
 autoformat.sequence = [
     {cmd = "black src tests"},
     {cmd = "isort src tests"},
